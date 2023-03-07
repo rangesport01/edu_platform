@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "Group-project-2023"
+version = "0.1.0"
+description = ""
+authors = [
+          "Pavel Ivanov <pavel.ivanov.060988@gmail.com>",
+          "Kozachok-Vladislav <fseven796@gmail.com>",
+          "Ruslan Aganovsky <r8446101@gmail.com>",
+          "Yatskevich-Aleksandr <maiya2232@gmail.com>",
+          "Drozd Alexey <alexeydrozd1108@gmail.com>",
+          "Anastasia Sasnouskaya <nastassia.sasnouskaya@gmail.com>",
+          "Valery Kirikov <valkirik1995@mail.ru>",
+          "Olga Ignatiuk <olga_03@bk.ru>"
+
+          ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.1.6"
+djangorestframework = "^3.14.0"
+python-dotenv = "^0.21.1"
+pre-commit = "^3.0.4"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+#[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+black = "^23.1.0"
+isort = "^5.12.0"
